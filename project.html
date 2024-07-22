@@ -1,0 +1,453 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Document</title>
+    <style>
+            
+        
+      * {
+        box-sizing: border-box;
+        
+      }
+     body{
+      margin: 0;
+      padding: 0;
+     }
+     .el6,.el7,.el8,.el9{
+      border: 1px solid;
+      height: 100vh;
+     }
+     .el1{
+      border-top: 2px solid green;
+      background-color: white;
+
+     }
+     .Nav{
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      font-size: x-small;
+      padding: 0;
+
+     }
+     .Nav li{
+      list-style: none;
+     }
+    .Nav .nav1{
+      margin-right: 60px;
+      font-weight: bold;
+
+
+     }
+    
+     
+     .Nav .nav8{
+      margin-left: 70px;
+     }
+     i{
+      margin-right: 5px;
+      border: 1px solid;
+      padding: 5px;
+      border-radius: 10px;
+      color: white;
+      font-size: 5px;
+      background-color: green;
+     }
+     li:hover{
+      background-color: rgb(56, 162, 56);}
+      button:hover{
+        color: brown;
+
+
+      }
+      
+     
+     
+     .el2 .aside{
+      display: grid;
+      justify-content: center;
+      animation-name: animi1;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+
+      margin-top: -180px;
+      color: rgb(255, 255, 255);
+      /* margin-right: 130px; */
+      padding-right: 200px;
+      
+
+     }
+     .aside h2 {
+      font-size: 1em;
+
+      font-family: sans-serif;
+      letter-spacing: 1px;
+     }
+     .aside .p1{
+      font-size: 7px;
+      margin-top: -10px;
+      opacity: 0.7;
+     }
+     
+     .sliderimg{
+      width:100vw;
+      height: 70vh;
+
+     }
+     .el2 img{
+      width: 100%;
+      height: 100%;
+     }
+     .aside button{
+      border-radius: 25px;
+      font-size: 8px;
+      margin: 10px 10px;
+      width: 80px;
+      border: 1px solid white;
+      color: white;
+      padding: 6px;
+      background-color: gray;
+
+     }
+     .el3{
+      margin-top: 100px;
+      display: grid;
+      grid-template-columns: repeat(3,160px);
+      justify-content: center;
+      animation-name: animi1;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+
+      gap: 10px;
+      
+     }
+     @keyframes animi1 {
+      from{
+        transform: translateX(0px);
+      }
+      to{
+        transform: translateX(20px);
+      }
+      
+     }
+     .mid1,.mid2,.mid3{
+      border: 1px solid whitesmoke;
+     
+     
+      padding: 30px 10px 10px 15px;
+
+      
+     }
+     .mid1 h4 ,.mid2 h4,.mid3 h4{
+      font-size: 12px;
+      opacity: 0.8;
+     }
+     .mid1 p ,.mid2 p,.mid3 p{
+      font-size: 9px;
+      margin-top: -10px;
+      opacity: 0.6;
+     }
+     .el3 button{
+      width: 30px;
+      height: 30px;
+      border-radius: 60px;
+      background-color: blue;
+      color: white;
+      border: 1px solid rgb(241, 241, 241);
+
+ }
+ .el4{
+  display: grid;
+  grid-template-columns: repeat(2,240px);
+  justify-content: center;
+  margin-top: 100px;
+  gap:50px
+ }
+     .content{
+      font-size: 9px;
+     
+     }
+     .cont1{
+      font-weight: bold;
+      font-size: 12px;
+      margin-right: 30px;
+     }
+     .cont2 h2,.cont3 h2,.cont4 h2{
+      padding-left: 40px;
+      margin-bottom: -10px;
+      opacity: 0.7;
+
+     }
+     .cont2 p,.cont3 p,.cont4 p{
+      padding-left: 10px;
+      opacity: 0.7;
+
+     }
+     .cont2 i,.cont3 i,.cont4 i{
+      font-size: 9px;
+      background-color:rgb(41, 166, 41);
+
+
+     }
+     .signup{
+      border: 1px solid white;
+      border-radius: 160px;
+      height: 55vh;
+      text-align: center;
+      font-size: 10px;
+      background-color: rgb(33, 31, 31);
+      color: white;
+
+     }
+     .name{
+      width: 50%;
+      border: 1px solid white;
+   
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      background-color: rgb(33, 31, 31);
+   margin-bottom: 10px;
+}
+.el4 button{
+  border-radius: 20px;
+  width: 90px;
+  padding: 7px;
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid white;
+}
+.el5{
+  display: grid;
+  justify-content: center;
+  font-size: 10px;
+  background-color: whitesmoke;
+}
+.author1,.author2,.author3,.author4{
+  height: 48vh;
+  display: grid;
+  border: 1px solid rgb(234, 233, 233);
+
+  justify-content: center;
+}
+.authors img{
+  width: 13.5vw;
+  height: 30vh;
+
+
+
+}
+.authors p{
+  font-size: 9px;
+  margin-top: -25px;
+  
+  
+}
+.auth p{
+  font-size: 9px;
+  margin-top: -11px;
+  background-color:whitesmoke ;
+  
+
+}
+.authors h4,p{
+  opacity: 0.8;
+  padding-left: 10px;
+  margin-top: -10px;
+  background-color: white;
+
+}
+.icons{
+  margin-top: -20px;
+  padding-left: 10px;
+  border: 1px solid rgb(215, 205, 205);
+  background-color: white;
+  padding-top: 5px;
+  font-size: 1px;
+
+  
+
+}
+.icons i{
+  background-color:white;
+  color: black;
+}
+.auth{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.authors {
+  display: grid;
+  grid-template-columns: repeat(4,120px);
+  gap: 10px;
+
+}
+     
+
+      @media (max-width:800px) {
+      .Nav{
+        flex-direction: column;
+        align-items: center;
+
+      }
+      .Nav .nav1{
+        margin: 0px;
+      }
+      .Nav .nav8{
+        margin-left: 10px;
+      }
+      i{
+        font-size: 6px;
+      }
+      .el2 .aside{
+        padding-right: 20px;
+        text-align: center;
+      
+      }
+      .aside button{
+        margin-top: -5px;
+        margin-left: 20px;
+      }
+      .el3,.el4{
+        grid-template-columns:repeat(1,auto) ;
+}}
+     
+     
+     
+    
+    
+
+     
+
+    
+     
+    </style>
+  </head>
+  <body>
+    <div class="el1">
+      <ul class="Nav">
+        <li class="nav1">Known</li>
+        <li class="nav2">Home</li>
+        <li class="nav3">About</li>
+        <li class="nav4">Our Teaches</li>
+        <li class="nav5"> Courses</li>
+        <li class="nav6">Review </li>
+        <li class="nav7">Contact</li>
+        <li class="nav8"><i class="fa-solid fa-phone"></i>6345678987</li>
+      </ul>
+    </div>
+    <div class="el2">
+      <div class="sliderimg">
+        <img src="./Slider-image1.jpg"></div>
+      <div class="aside">
+        <h2>Distance Learning <br/> Education Center</h2>
+        <P class="p1">Our online courses are designed to fit in your industry supporting all -round<br/>with latest technologies</P>
+        <button>Discover more</button>
+      </div>
+     
+      
+    </div>
+    <div class="el3">
+      <div class="mid1">
+        <button>01</button>
+        <h4>Trending Courses</h4>
+        <p>Lorem ipsum dolor, sit amet <br/>consectetur adipisicing elit <br/>Corporis illum ipsam </p>
+      </div>
+      
+      <div class="mid2">
+      <button>02</button>
+      <h4>Books & Library</h4>
+      <p>Lorem ipsum dolor, sit amet <br/>consectetur adipisicing elit <br/>Corporis illum ipsam </p>
+    </div>
+      <div class="mid3">
+        <button>03</button>
+        <h4>Certified  Teacher</h4>
+        <p>Lorem ipsum dolor, sit amet <br/>consectetur adipisicing elit <br/>Corporis illum ipsam </p>
+      
+      </div>
+
+    </div>
+    <div class="el4">
+      <div class="content">
+        <div class="cont1">Start your journey to a better life with <br/> online practical courses</div>
+        <div class="cont2">
+          <h2 >Professional Trainers</h2>
+          <p><i class="fa-solid fa-users"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> <span style="margin-left: 30px;">minus, quis?</span></p>
+        </div>
+        <div class="cont3">
+          <h2>Internatinal Certification</h2>
+          <p><i class="fa-solid fa-certificate"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/><span style="margin-left: 30px;">minus, quis?</span></p>
+        </div>
+        <div class="cont4">
+          <h2>Free for 3 months</h2>
+          <p><i class="fa-solid fa-chart-column"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/><span style="margin-left: 30px;">minus, quis?</span></p>
+        </div>
+      </div>
+      <div class="signup">
+        <h2>signup today</h2>
+        <label for="full name">Full name</label><br/>
+        <input type="text" name="fullname" id="fullname" class="name"><br/>
+        <label for="email">Your email address</label><br/>
+        <input type="email" name="email" id="email"  class="name"><br/>
+        <label for="pass">Your password</label><br/>
+        <input type="password" name="pass" id="pass"  class="name"><br/>
+        <button>Get started</button>
+
+      </div>
+
+    </div>
+    <!-- <div class="el5">
+      <div class="auth">
+        <h4>Teachers</h4>
+        <p>Meet Professional Trainers</p>
+      </div>
+      <div class="authors">
+        <div class="author1">
+          <img src="./author1.jpg">
+          <h4>Mark Wilson</h4>
+          <p>I Love Teaching</p>
+          <div class="icons">
+          <i class="fa-brands fa-facebook"></i> 
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i></div>
+        </div>
+        <div class="author2">
+          <img src="./author2.jpg">
+          <h4>catherine</h4>
+          <p>Education is the Key!</p>
+          <div class="icons">
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-instagram"></i></div>
+        </div>
+        <div class="author3">
+          <img src="./author3.jpg">
+          <h4>Jessie Ca</h4>
+          <p>I Like Online Courses</p>
+          <div class="icons">
+          <i class="fa-brands fa-twitter"></i><i class="fa-solid fa-square-envelope"></i><i class="fa-brands fa-linkedin"></i></div>
+        </div>
+        <div class="author4">
+          <img src="./author4.jpg">
+          <h4>Andrew Berti</h4>
+          <p>Learning is Fun</p>
+          <div class="icons">
+          <i class="fa-brands fa-twitter"></i><i class="fa-solid fa-square-envelope"></i><i class="fa-brands fa-linkedin"></i></div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="el6">popular course</div> -->
+    <div class="el7">student review</div>
+    <div class="el8">contacut us</div>
+    <div class="el9">footer</div>
+   
+  </body>
+</html> 
+
+    
