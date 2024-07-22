@@ -182,8 +182,8 @@
       opacity: 0.7;
 
      }
-     .cont2 p,.cont3 p,.cont4 p{
-      padding-left: 10px;
+     .cont2 .para,.cont3 .para,.cont4 .para{
+      padding-left: 6px;
       opacity: 0.7;
 
      }
@@ -215,81 +215,46 @@
 }
 .el4 button{
   border-radius: 20px;
-  width: 90px;
-  padding: 7px;
+  width: 80px;
+  padding: 5px;
   font-size: 10px;
   background-color: white;
   border: 1px solid white;
 }
-.el5{
-  display: grid;
-  justify-content: center;
-  font-size: 10px;
-  background-color: whitesmoke;
+.authors img{
+  width: 15.3vw;
+  height: 30vh;
 }
 .author1,.author2,.author3,.author4{
-  height: 48vh;
-  display: grid;
-  border: 1px solid rgb(234, 233, 233);
-
-  justify-content: center;
+  border: 1px solid;
 }
-.authors img{
-  width: 13.5vw;
-  height: 30vh;
-
-
-
-}
-.authors p{
-  font-size: 9px;
-  margin-top: -25px;
-  
-  
-}
-.auth p{
-  font-size: 9px;
-  margin-top: -11px;
-  background-color:whitesmoke ;
-  
-
-}
-.authors h4,p{
-  opacity: 0.8;
-  padding-left: 10px;
-  margin-top: -10px;
-  background-color: white;
-
-}
-.icons{
-  margin-top: -20px;
-  padding-left: 10px;
-  border: 1px solid rgb(215, 205, 205);
-  background-color: white;
-  padding-top: 5px;
-  font-size: 1px;
-
-  
-
-}
-.icons i{
-  background-color:white;
-  color: black;
-}
-.auth{
-  text-align: center;
-  margin-top: 50px;
-}
-
-.authors {
+.authors{
   display: grid;
   grid-template-columns: repeat(4,120px);
-  gap: 10px;
-
+  justify-content: center;
+  gap:10px;
 }
-     
+.authors .tit{
+  font-size: 10px;
+  padding-left: 10px;
+  margin-top: -3px;
+  opacity: 0.7;
+}
+.authors .para1{
+  font-size: 10px;
+  padding-left: 10px;
+  margin-top: -10px;
+  opacity: 0.4;
+}
+.authors i{
+  width: 15px;
+}
 
-      @media (max-width:800px) {
+
+
+
+
+      @media (max-width:700px) {
       .Nav{
         flex-direction: column;
         align-items: center;
@@ -377,15 +342,15 @@
         <div class="cont1">Start your journey to a better life with <br/> online practical courses</div>
         <div class="cont2">
           <h2 >Professional Trainers</h2>
-          <p><i class="fa-solid fa-users"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> <span style="margin-left: 30px;">minus, quis?</span></p>
+          <p class="para"><i class="fa-solid fa-users"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> <span style="margin-left: 30px;">minus, quis?</span></p>
         </div>
         <div class="cont3">
-          <h2>Internatinal Certification</h2>
-          <p><i class="fa-solid fa-certificate"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/><span style="margin-left: 30px;">minus, quis?</span></p>
+          <h2 >Internatinal Certification</h2>
+          <p class="para"><i class="fa-solid fa-certificate"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/><span style="margin-left: 30px;">minus, quis?</span></p>
         </div>
         <div class="cont4">
-          <h2>Free for 3 months</h2>
-          <p><i class="fa-solid fa-chart-column"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/><span style="margin-left: 30px;">minus, quis?</span></p>
+          <h2 >Free for 3 months</h2>
+          <p class="para"><i class="fa-solid fa-chart-column"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/><span style="margin-left: 30px;">minus, quis?</span></p>
         </div>
       </div>
       <div class="signup">
@@ -401,48 +366,43 @@
       </div>
 
     </div>
-    <!-- <div class="el5">
+     <div class="el5">
       <div class="auth">
-        <h4>Teachers</h4>
-        <p>Meet Professional Trainers</p>
+        <h4 class="tit">Teachers</h4>
+        <p class="para1">Meet Professional Trainers</p>
       </div>
       <div class="authors">
         <div class="author1">
           <img src="./author1.jpg">
-          <h4>Mark Wilson</h4>
-          <p>I Love Teaching</p>
-          <div class="icons">
+          <h4 class="tit">Mark Wilson</h4>
+          <p class="para1">I Love Teaching</p>
           <i class="fa-brands fa-facebook"></i> 
           <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-instagram"></i></div>
-        </div>
+        
         <div class="author2">
           <img src="./author2.jpg">
-          <h4>catherine</h4>
-          <p>Education is the Key!</p>
-          <div class="icons">
+          <h4 class="tit">catherine</h4>
+          <p class="para1">Education is the Key!</p>
           <i class="fa-brands fa-google"></i>
-          <i class="fa-brands fa-instagram"></i></div>
+          <i class="fa-brands fa-instagram"></i>
         </div>
         <div class="author3">
           <img src="./author3.jpg">
-          <h4>Jessie Ca</h4>
-          <p>I Like Online Courses</p>
-          <div class="icons">
-          <i class="fa-brands fa-twitter"></i><i class="fa-solid fa-square-envelope"></i><i class="fa-brands fa-linkedin"></i></div>
+          <h4 class="tit">Jessie Ca</h4>
+          <p class="para1">I Like Online Courses</p>
+          <i class="fa-brands fa-twitter"></i><i class="fa-solid fa-square-envelope"></i><i class="fa-brands fa-linkedin"></i>
         </div>
         <div class="author4">
           <img src="./author4.jpg">
-          <h4>Andrew Berti</h4>
-          <p>Learning is Fun</p>
-          <div class="icons">
-          <i class="fa-brands fa-twitter"></i><i class="fa-solid fa-square-envelope"></i><i class="fa-brands fa-linkedin"></i></div>
+          <h4 class="tit">Andrew Berti</h4>
+          <p class="para1">Learning is Fun</p>
+          <i class="fa-brands fa-twitter"></i><i class="fa-solid fa-square-envelope"></i><i class="fa-brands fa-linkedin"></i>
 
 
         </div>
       </div>
-    </div>
-    <div class="el6">popular course</div> -->
+    <div class="el6">popular course</div>
     <div class="el7">student review</div>
     <div class="el8">contacut us</div>
     <div class="el9">footer</div>
